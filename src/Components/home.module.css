@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid rgb(158, 154, 154);
+
+}
+
+#nav>a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-shadow: 4px 4px 5px white;
+}
+
+#myForm{
+    height: 90vh;
+    width: 100%;
+    background-image: url(./background.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+#myForm>article{
+    height: 300px;
+    width: 300px;
+    background-color: transparent;   
+    border-radius: 5px;
+    box-shadow: 0 0 3px black;
+    /* opacity: 0.6; */
+    display: flex;
+    flex-direction: column;
+    justify-content: c;
+    align-items: center;
+    border: 1px solid white;
+}
+
+#myForm>article>label{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+#myForm>article>input{
+    border: none;
+    background-color:transparent;
+    /*border-bottom: 1px solid rgb(179, 79, 79);*/
+    border: solid 1px;
+    outline: none;
+}
+
+#myForm>article>button{
+    height: 30px;
+    width: 130px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    box-shadow: 0 0 8px black;
+    margin-top: 5px;
+}
+
+#myForm>article>button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#userHome{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./bg2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#cards{
+    height: 200px;
+    width: 220px;
+    margin: 0 0 10px;
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+}
+
+#cards>table>tr td,th{
+   padding: 10px;
+   font-family: system-ui;
+}
+h1{
+    padding: 10px;
+    background-color: darkgray;
+    color: white;
+    padding-left: 90px;
+    padding-right: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: underline;
+    color: red;
+}
+
+#cards>table>td>a{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    background: cornflowerblue;
+    padding: 3px 12px;
+    margin-left: 9px;
+    border-radius: 15px;
+}
+
+#cards>table>td>a:hover{
+    text-decoration: underline;
+}
+
+#cards>table>td>button{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    background: rgb(100, 237, 100);
+    padding: 3px 12px;
+    margin-left: 9px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+/* #user{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, black,red,yellow,pink);}
+
+#user>article{
+    height:28vh;
+    width: 30%;
+    text-align: center;
+    line-height: 44px;
+    box-shadow: 0 7px 15px 0px black;
+    border-radius: 7px;
+}
+
+#user>article>h1{
+    border-bottom: 1px solid black;
+    font-family: system-ui;
+} */

@@ -1,0 +1,44 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "diksha",
+      "college": "NTR"
+    },
+    {
+      "name": "deepa",
+      "college": "mfm",
+      "id": 2
+    },
+    {
+      "name": "neha",
+      "college": "pvr",
+      "id": 3
+    },
+    {
+      "name": "payal",
+      "college": "mfm",
+      "id": 4
+    },
+    {
+      "name": "bhumi",
+      "college": "bmw",
+      "id": 5
+    },
+    {
+      "name": "raghav",
+      "college": "mit",
+      "id": 6
+    },
+    {
+      "name": "sapna",
+      "college": "svg",
+      "id": 7
+    },
+    {
+      "name": "123",
+      "college": "xyz",
+      "id": 8
+    }
+  ]
+}
